@@ -1,7 +1,7 @@
 
-Mini tool để nhập melody + bass và xuất file MP3.  
+Mini tool để nhập melody và xuất file MP3.  
 
-Bạn có thể nhập các nốt theo dạng `key:duration` (ví dụ: `c:500`) và thêm bass riêng.  
+Bạn có thể nhập các nốt theo dạng `key:duration` (ví dụ: `c:500`)
 
 ---
 
@@ -60,10 +60,7 @@ Nhấn u để undo nốt cuối.
 
 
 
-### 4. Sau khi xong Melody, tool sẽ hỏi nhập Bass theo cùng định dạng.
-
-
-### 5. Tool sẽ tự play từng nốt và cuối cùng xuất file MP3.
+### 4. Tool sẽ tự play từng nốt và cuối cùng xuất file MP3.
 
 
 
