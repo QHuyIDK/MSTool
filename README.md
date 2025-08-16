@@ -5,15 +5,15 @@ Bạn có thể nhập các nốt theo dạng `key:duration` (ví dụ: `c:500`)
 
 ---
 
-### Cài đặt
+## Cài đặt
 
-## 1. Clone repo về:  
+### 1. Clone repo về:  
 
 ```bash
 git clone https://github.com/username/mstool.git
 cd mstool
 ```
-## 2. Cài dependencies:
+### 2. Cài dependencies:
 
 
 ```bash
@@ -24,7 +24,7 @@ requirements.txt có thể gồm:
 numpy
 pydub
 ```
-## 3. (Optional) Nếu muốn cài global để chạy mstool từ mọi nơi:
+### 3. (Optional) Nếu muốn cài global để chạy mstool từ mọi nơi:
 
 
 ```bash
@@ -36,9 +36,9 @@ Sau đó chỉ cần gõ mstool là chạy được.
 
 ---
 
-### Cách dùng
+## Cách dùng
 
-## Chạy tool:
+### Chạy tool:
 ```bash
 ./mstool.py
 ```
@@ -46,13 +46,13 @@ Hoặc nếu đã cài global:
 ```bash
 mstool
 ```
-## 1. Chọn file MP3 để sửa hoặc nhấn ENTER để tạo file mới.
+### 1. Chọn file MP3 để sửa hoặc nhấn ENTER để tạo file mới.
 
 
 ## 2. Nhập tên file mới (không cần .mp3).
 
 
-## 3. Nhập Melody theo dạng: key:duration (vd: c:500)
+### 3. Nhập Melody theo dạng: key:duration (vd: c:500)
 
 Nhấn # để kết thúc Melody.
 
@@ -60,10 +60,10 @@ Nhấn u để undo nốt cuối.
 
 
 
-## 4. Sau khi xong Melody, tool sẽ hỏi nhập Bass theo cùng định dạng.
+### 4. Sau khi xong Melody, tool sẽ hỏi nhập Bass theo cùng định dạng.
 
 
-## 5. Tool sẽ tự play từng nốt và cuối cùng xuất file MP3.
+### 5. Tool sẽ tự play từng nốt và cuối cùng xuất file MP3.
 
 
 
@@ -71,23 +71,16 @@ Nhấn u để undo nốt cuối.
 ---
 
 ## Ví dụ
-```
+
 Nhập Melody
-Nốt 1: c:500
-Nốt 2: d:500
-Nốt 3: e:500
-Nốt 4: #
-Nhập Bass
-Nốt 1: c:1000
-Nốt 2: #
-File MP3 đã lưu: output.mp3
-```
+`Nốt 1: c:500`
+`Nốt 2: d:500`
+`Nốt 3: e:500`
+`Nốt 4: #`
+`File MP3 đã lưu: output.mp3`
+
 
 ---
 
-## Lưu ý
-```
-Bass được nhập với các key c, c#, d, d#, e, f, f#, g, g#, a, a#, b + số octave nếu muốn (ví dụ c2:500).
+## Tool dùng pydub để tạo và phát âm thanh.
 
-Tool dùng pydub để tạo và phát âm thanh.
-```
