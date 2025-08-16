@@ -10,7 +10,7 @@ Bạn có thể nhập các nốt theo dạng `key:duration` (ví dụ: `c:500`)
 ### 1. Clone repo về:  
 
 ```bash
-git clone https://github.com/username/mstool.git
+git clone https://github.com/QHuyIDK/MSTool/
 cd mstool
 ```
 ### 2. Cài dependencies:
